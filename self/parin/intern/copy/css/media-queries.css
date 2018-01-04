@@ -1,0 +1,50 @@
+/*Iphone 4 and 5*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 325px) {}
+
+
+/*all mobiles*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
+    .home-body {
+        background: /* top, transparent red, faked with gradient */
+        linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg-galaxy.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        overflow: scroll;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    .main-owl-row {
+        position: relative;
+        top: 3vh;
+    }
+    
+    .marYCust{
+      margin-top: 0;
+        margin-bottom: 1.5rem;
+    }
+    
+    .marRCust{
+        margin-right: 0;
+    }
+    
+    #map{
+        margin-top: 20px;
+        height: 300px;
+        border: solid 1px #fff;
+    }
+    
+}
+
+
+/*Ipad*/
+
+@media only screen and (min-device-width: 765px) and (max-device-width: 1020px) {}
+
+
+/*Ipad pro*/
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1050px) {}
